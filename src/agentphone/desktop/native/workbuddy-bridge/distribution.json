@@ -1,0 +1,8 @@
+{
+  "extensionId": "agentphone-bridge",
+  "version": "0.4.7",
+  "kind": "platform",
+  "grantedPermissions": ["conversations.local.list", "conversations.get", "conversations.create", "conversations.rename", "conversations.runPrompt"],
+  "processPolicy": {"server": "fork", "renderer": null},
+  "status": "active"
+}

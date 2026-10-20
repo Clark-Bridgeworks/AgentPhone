@@ -1,0 +1,6 @@
+{
+  "id": "agentphone-bridge",
+  "name": "AgentPhone 本机通信适配",
+  "version": "0.4.7",
+  "service": {"entry": "server/index.cjs", "activationEvents": ["onStartup"]}
+}
