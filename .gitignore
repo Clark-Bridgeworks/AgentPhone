@@ -1,0 +1,47 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build products
+build/
+dist/
+releases/
+*.zip
+*.whl
+
+# Local bridge state, credentials, backups and diagnostics
+.env
+.env.*
+!.env.example
+data/
+local-data/
+runtime/
+ConfigBackups/
+UpgradeBackups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+bridge-endpoint.json
+bridge-selection.json
+desktop.json
+*-verification.json
+*-request.json
+*-response.json
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
