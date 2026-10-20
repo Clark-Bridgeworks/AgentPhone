@@ -1,0 +1,10 @@
+# 开发者示例：command 替换为实际安装路径。正常桌面使用由软件自动配置。
+- insert:
+    - id: mcp-agentphone
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: agentphone
+        transport: stdio
+        command: 'C:\请替换为安装目录\AgentPhone.exe'
+        args: ['--mcp-stdio']
+        toolCallTimeoutMs: 55000
