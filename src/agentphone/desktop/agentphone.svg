@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<defs><clipPath id="clip"><rect width="256" height="256" rx="57.4"/></clipPath>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#5b9bf5"/><stop offset=".52" stop-color="#3576e0"/><stop offset="1" stop-color="#2258bd"/></linearGradient>
+<linearGradient id="top" x2="0" y2="1"><stop stop-color="white" stop-opacity=".3"/><stop offset=".55" stop-color="white" stop-opacity="0"/></linearGradient>
+<linearGradient id="line"><stop stop-color="white" stop-opacity=".62"/><stop offset=".5" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity=".62"/></linearGradient>
+<radialGradient id="core"><stop stop-color="#fff"/><stop offset=".65" stop-color="#eaf3ff"/><stop offset="1" stop-color="#bcd9ff"/></radialGradient></defs>
+<g clip-path="url(#clip)"><rect width="256" height="256" fill="url(#bg)"/><rect width="256" height="118" fill="url(#top)"/>
+<path d="M62 162 C62 110,194 110,194 162" fill="none" stroke="url(#line)" stroke-width="17" stroke-linecap="round"/>
+<rect x="45" y="154" width="34" height="34" rx="11" fill="white" fill-opacity=".24" stroke="white" stroke-opacity=".78" stroke-width="5"/>
+<rect x="177" y="154" width="34" height="34" rx="11" fill="white" fill-opacity=".24" stroke="white" stroke-opacity=".78" stroke-width="5"/>
+<circle cx="128" cy="116" r="35" fill="white" fill-opacity=".18"/><circle cx="128" cy="116" r="24" fill="url(#core)" stroke="white" stroke-opacity=".55" stroke-width="3"/>
+<rect y="243" width="256" height="13" fill="white" fill-opacity=".07"/></g>
+<rect x=".75" y=".75" width="254.5" height="254.5" rx="56.9" fill="none" stroke="black" stroke-opacity=".07" stroke-width="1.5"/></svg>
